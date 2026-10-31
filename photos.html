@@ -181,7 +181,7 @@
 
         // Set the main card cover automatically to the first photo
         if (storePhotos.length > 0) {
-            document.getElementById('mainStoreCover').src = `photos/${storePhotos[0]}`;
+            document.getElementById('mainStoreCover').src = `Photos/${storePhotos[0]}`;
         }
 
         const storeGalleryModal = new bootstrap.Modal(document.getElementById('storeGalleryModal'));
@@ -195,8 +195,8 @@
                 content += `
                     <div class="col-6 col-sm-4 col-md-3">
                         <div class="thumb-item">
-                            <a href="photos/${photo}" target="_blank">
-                                <img src="photos/${photo}" alt="Store Photo ${index + 1}">
+                            <a href="Photos/${photo}" target="_blank">
+                                <img src="Photos/${photo}" alt="Store Photo ${index + 1}">
                             </a>
                         </div>
                     </div>
